@@ -1,0 +1,24 @@
+
+.navbar.navbar-expand-lg.bg-dark{
+    background-color: rgb(78, 90, 82)  !important;
+}
+.navbar{
+    --bs-navbar-padding-y:0 !important;
+    height: 3.5rem;
+}
+
+/* Botones redes sociales*/
+i.fa-brands.fa-linkedin:hover{
+    color: blue;
+    }
+i.fa-brands.fa-facebook:hover{
+    color: blue;
+}
+i.fa-brands.fa-instagram:hover{
+    color: #C13584;
+}
+li.list-group-item{
+    background-color: rgb(35, 190, 118);
+    height: 2rem ;
+}
+/* Fin Botones redes sociales*/
