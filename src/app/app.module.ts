@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { Seccion1Component } from './seccion1/seccion1.component';
-import { ModalComponent } from './modal/modal.component';
+import { LoginComponent } from './modales/login/login.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +14,7 @@ import { ModalComponent } from './modal/modal.component';
     NavbarComponent,
     FooterComponent,
     Seccion1Component,
-    ModalComponent
+    LoginComponent
   ],
   imports: [
     BrowserModule,
