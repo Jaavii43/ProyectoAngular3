@@ -12,6 +12,7 @@ import { Seccion2Component } from './seccion2/seccion2.component';
 import { Seccion3Component } from './seccion3/seccion3.component';
 import { Seccion4Component } from './seccion4/seccion4.component';
 import { Seccion5Component } from './seccion5/seccion5.component';
+import { RoutingModule } from './routing/routing.module';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { Seccion5Component } from './seccion5/seccion5.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    RoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
