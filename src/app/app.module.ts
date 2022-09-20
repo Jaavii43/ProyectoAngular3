@@ -12,7 +12,10 @@ import { Seccion2Component } from './seccion2/seccion2.component';
 import { Seccion3Component } from './seccion3/seccion3.component';
 import { Seccion4Component } from './seccion4/seccion4.component';
 import { Seccion5Component } from './seccion5/seccion5.component';
-import { RoutingModule } from './routing/routing.module';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { ErrorComponent } from './error/error.component';
+import { IntroComponent } from './intro/intro.component';
+
 
 @NgModule({
   declarations: [
@@ -25,12 +28,14 @@ import { RoutingModule } from './routing/routing.module';
     Seccion2Component,
     Seccion3Component,
     Seccion4Component,
-    Seccion5Component
+    Seccion5Component,
+    DashboardComponent,
+    ErrorComponent,
+    IntroComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    RoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
