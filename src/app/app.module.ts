@@ -1,11 +1,10 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
-import { Seccion1Component } from './seccion1/seccion1.component';
+import { SobremiComponent } from './sobremi/sobremi.component';
 import { LoginComponent } from './modales/login/login.component';
 import { RedesComponent } from './redes/redes.component';
 import { Seccion2Component } from './seccion2/seccion2.component';
@@ -22,7 +21,7 @@ import { IntroComponent } from './intro/intro.component';
     AppComponent,
     NavbarComponent,
     FooterComponent,
-    Seccion1Component,
+    SobremiComponent,
     LoginComponent,
     RedesComponent,
     Seccion2Component,
