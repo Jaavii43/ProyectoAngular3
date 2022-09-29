@@ -14,6 +14,9 @@ import { Seccion5Component } from './seccion5/seccion5.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { ErrorComponent } from './error/error.component';
 import { IntroComponent } from './intro/intro.component';
+import { BottonloginComponent } from './bottonlogin/bottonlogin.component';
+import { BottonlogoutComponent } from './bottonlogout/bottonlogout.component';
+import { NavbardashboardComponent } from './navbardashboard/navbardashboard.component';
 
 
 @NgModule({
@@ -30,7 +33,10 @@ import { IntroComponent } from './intro/intro.component';
     Seccion5Component,
     DashboardComponent,
     ErrorComponent,
-    IntroComponent
+    IntroComponent,
+    BottonloginComponent,
+    BottonlogoutComponent,
+    NavbardashboardComponent
   ],
   imports: [
     BrowserModule,
