@@ -11,12 +11,15 @@ import { Seccion2Component } from './seccion2/seccion2.component';
 import { Seccion3Component } from './seccion3/seccion3.component';
 import { Seccion4Component } from './seccion4/seccion4.component';
 import { Seccion5Component } from './seccion5/seccion5.component';
-import { DashboardComponent } from './dashboard/dashboard.component';
+import { DashboardComponent } from './edicion/dashboard.component';
 import { ErrorComponent } from './error/error.component';
 import { IntroComponent } from './intro/intro.component';
 import { BottonloginComponent } from './bottonlogin/bottonlogin.component';
 import { BottonlogoutComponent } from './bottonlogout/bottonlogout.component';
 import { NavbardashboardComponent } from './navbardashboard/navbardashboard.component';
+import { SobremieditComponent } from './edicion/sobremiedit/sobremiedit/sobremiedit.component';
+import { SeccioneditComponent } from './edicion/seccionedit/seccionedit.component';
+import { ModeditsobremiComponent } from './edicion/modeditsobremi/modeditsobremi.component';
 
 
 @NgModule({
@@ -36,7 +39,10 @@ import { NavbardashboardComponent } from './navbardashboard/navbardashboard.comp
     IntroComponent,
     BottonloginComponent,
     BottonlogoutComponent,
-    NavbardashboardComponent
+    NavbardashboardComponent,
+    SobremieditComponent,
+    SeccioneditComponent,
+    ModeditsobremiComponent
   ],
   imports: [
     BrowserModule,

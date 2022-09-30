@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { DashboardComponent } from './dashboard/dashboard.component';
+import { DashboardComponent } from './edicion/dashboard.component';
 import { ErrorComponent } from './error/error.component';
 import { IntroComponent } from './intro/intro.component';
 
