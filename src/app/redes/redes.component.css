@@ -10,6 +10,9 @@ i.fa-brands.fa-instagram:hover{
 }
 li.list-group-item{
     background-color: rgb(35, 190, 118);
-    height: 2.5rem ;
+    height: 2.5rem ;     
 }
+li.facebook{
+    border-top-right-radius:0% !important;
+    border-bottom-right-radius: 0%;}
 /* Fin Botones redes sociales*/
