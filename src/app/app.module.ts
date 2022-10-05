@@ -20,6 +20,9 @@ import { NavbardashboardComponent } from './navbardashboard/navbardashboard.comp
 import { SobremieditComponent } from './edicion/sobremiedit/sobremiedit/sobremiedit.component';
 import { SeccioneditComponent } from './edicion/seccionedit/seccionedit.component';
 import { ModeditsobremiComponent } from './edicion/modeditsobremi/modeditsobremi.component';
+import { ModeditfotoComponent } from './edicion/modeditfoto/modeditfoto.component';
+import { BotonesedicionComponent } from './edicion/botonesedicion/botonesedicion.component';
+import { SecedueditComponent } from './edicion/seceduedit/seceduedit.component';
 
 
 @NgModule({
@@ -42,7 +45,10 @@ import { ModeditsobremiComponent } from './edicion/modeditsobremi/modeditsobremi
     NavbardashboardComponent,
     SobremieditComponent,
     SeccioneditComponent,
-    ModeditsobremiComponent
+    ModeditsobremiComponent,
+    ModeditfotoComponent,
+    BotonesedicionComponent,
+    SecedueditComponent
   ],
   imports: [
     BrowserModule,
