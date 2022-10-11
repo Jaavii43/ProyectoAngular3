@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { Seccion3Component } from './seccion3.component';
+import { SecproeditComponent } from './secproedit.component';
 
-describe('Seccion3Component', () => {
-  let component: Seccion3Component;
-  let fixture: ComponentFixture<Seccion3Component>;
+describe('SecproeditComponent', () => {
+  let component: SecproeditComponent;
+  let fixture: ComponentFixture<SecproeditComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ Seccion3Component ]
+      declarations: [ SecproeditComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(Seccion3Component);
+    fixture = TestBed.createComponent(SecproeditComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

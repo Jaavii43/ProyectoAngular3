@@ -7,10 +7,6 @@ import { FooterComponent } from './footer/footer.component';
 import { SobremiComponent } from './sobremi/sobremi.component';
 import { LoginComponent } from './modales/login/login.component';
 import { RedesComponent } from './redes/redes.component';
-import { Seccion2Component } from './seccion2/seccion2.component';
-import { Seccion3Component } from './seccion3/seccion3.component';
-import { Seccion4Component } from './seccion4/seccion4.component';
-import { Seccion5Component } from './seccion5/seccion5.component';
 import { DashboardComponent } from './edicion/dashboard.component';
 import { ErrorComponent } from './error/error.component';
 import { IntroComponent } from './intro/intro.component';
@@ -24,6 +20,11 @@ import { ModeditfotoComponent } from './edicion/modeditfoto/modeditfoto.componen
 import { BotonesedicionComponent } from './edicion/botonesedicion/botonesedicion.component';
 import { SecedueditComponent } from './edicion/seceduedit/seceduedit.component';
 import { SechabeditComponent } from './edicion/sechabedit/sechabedit.component';
+import { ProyectosComponent } from './proyectos/proyectos.component';
+import { SecproeditComponent } from './edicion/secproedit/secproedit.component';
+import { HabilidadesComponent } from './habilidades/habilidades.component';
+import { TrabajosComponent } from './trabajos/trabajos.component';
+import { EstudiosComponent } from './estudios/estudios.component';
 
 
 @NgModule({
@@ -34,10 +35,6 @@ import { SechabeditComponent } from './edicion/sechabedit/sechabedit.component';
     SobremiComponent,
     LoginComponent,
     RedesComponent,
-    Seccion2Component,
-    Seccion3Component,
-    Seccion4Component,
-    Seccion5Component,
     DashboardComponent,
     ErrorComponent,
     IntroComponent,
@@ -50,7 +47,12 @@ import { SechabeditComponent } from './edicion/sechabedit/sechabedit.component';
     ModeditfotoComponent,
     BotonesedicionComponent,
     SecedueditComponent,
-    SechabeditComponent
+    SechabeditComponent,
+    ProyectosComponent,
+    SecproeditComponent,
+    HabilidadesComponent,
+    TrabajosComponent,
+    EstudiosComponent
   ],
   imports: [
     BrowserModule,

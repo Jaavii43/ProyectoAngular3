@@ -1,18 +1,18 @@
 section.habilidades{
-    background-color: rgb(91, 104, 95)
-}
-div.col-2{
-  text-align: center;
-}
-.row{
-  --bs-gutter-x:0rem;
-}
-h2{
-  background-color: rgb(133, 138, 134);
-}
+    background-color: rgb(78, 90, 82)
+  }
+  div.col-2{
+    text-align: center;
+    font-weight: bold;
 
-
-.progress-circle {
+  }
+  .row{
+    --bs-gutter-x:0rem;
+  }
+  h2{
+    background-color: rgb(133, 138, 134);
+  }
+  .progress-circle {
     position: relative;
     display: inline-block;
     margin: 1rem;
@@ -78,4 +78,4 @@ h2{
     100% {
       opacity: 1;
       transform: rotate(360deg); } 
-  }
+  }  
