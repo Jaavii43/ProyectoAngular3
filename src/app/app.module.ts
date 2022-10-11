@@ -25,6 +25,7 @@ import { SecproeditComponent } from './edicion/secproedit/secproedit.component';
 import { HabilidadesComponent } from './habilidades/habilidades.component';
 import { TrabajosComponent } from './trabajos/trabajos.component';
 import { EstudiosComponent } from './estudios/estudios.component';
+import { BotonagregarComponent } from './edicion/botonagregar/botonagregar.component';
 
 
 @NgModule({
@@ -52,7 +53,8 @@ import { EstudiosComponent } from './estudios/estudios.component';
     SecproeditComponent,
     HabilidadesComponent,
     TrabajosComponent,
-    EstudiosComponent
+    EstudiosComponent,
+    BotonagregarComponent
   ],
   imports: [
     BrowserModule,
