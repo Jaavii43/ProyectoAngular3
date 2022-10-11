@@ -23,6 +23,7 @@ import { ModeditsobremiComponent } from './edicion/modeditsobremi/modeditsobremi
 import { ModeditfotoComponent } from './edicion/modeditfoto/modeditfoto.component';
 import { BotonesedicionComponent } from './edicion/botonesedicion/botonesedicion.component';
 import { SecedueditComponent } from './edicion/seceduedit/seceduedit.component';
+import { SechabeditComponent } from './edicion/sechabedit/sechabedit.component';
 
 
 @NgModule({
@@ -48,7 +49,8 @@ import { SecedueditComponent } from './edicion/seceduedit/seceduedit.component';
     ModeditsobremiComponent,
     ModeditfotoComponent,
     BotonesedicionComponent,
-    SecedueditComponent
+    SecedueditComponent,
+    SechabeditComponent
   ],
   imports: [
     BrowserModule,

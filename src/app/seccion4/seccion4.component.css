@@ -7,6 +7,11 @@ div.col-2{
 .row{
   --bs-gutter-x:0rem;
 }
+h2{
+  background-color: rgb(133, 138, 134);
+}
+
+
 .progress-circle {
     position: relative;
     display: inline-block;
