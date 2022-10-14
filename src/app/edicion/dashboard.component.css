@@ -1,10 +1,3 @@
-.navbar.navbar-expand-lg.bg-dark{
-    background-color: rgb(78, 90, 82)  !important;
-}
-.navbar{
-    --bs-navbar-padding-y:0 !important;
-    height: 3.5rem;
-}
 hr{
     margin: 0rem;
 }

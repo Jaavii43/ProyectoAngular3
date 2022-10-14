@@ -26,6 +26,7 @@ import { HabilidadesComponent } from './habilidades/habilidades.component';
 import { TrabajosComponent } from './trabajos/trabajos.component';
 import { EstudiosComponent } from './estudios/estudios.component';
 import { BotonagregarComponent } from './edicion/botonagregar/botonagregar.component';
+import { ModaddlabComponent } from './edicion/modaddlab/modaddlab.component';
 
 
 @NgModule({
@@ -54,7 +55,8 @@ import { BotonagregarComponent } from './edicion/botonagregar/botonagregar.compo
     HabilidadesComponent,
     TrabajosComponent,
     EstudiosComponent,
-    BotonagregarComponent
+    BotonagregarComponent,
+    ModaddlabComponent
   ],
   imports: [
     BrowserModule,
