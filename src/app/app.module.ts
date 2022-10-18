@@ -27,7 +27,8 @@ import { TrabajosComponent } from './trabajos/trabajos.component';
 import { EstudiosComponent } from './estudios/estudios.component';
 import { BotonagregarComponent } from './edicion/botonagregar/botonagregar.component';
 import { ModaddlabComponent } from './edicion/modaddlab/modaddlab.component';
-
+import { HttpClientModule } from '@angular/common/http';
+ 
 
 @NgModule({
   declarations: [
@@ -61,6 +62,7 @@ import { ModaddlabComponent } from './edicion/modaddlab/modaddlab.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
