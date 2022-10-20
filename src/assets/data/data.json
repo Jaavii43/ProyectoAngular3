@@ -1,5 +1,14 @@
 {
     "name": "Javier Toro",
     "posicion": "Tecnico en Electronica",
-    "imagen": "./assets/img/Estado.jpg"
+    "imagen": "./assets/img/Estado.jpg",
+    "experiencias": [
+    {
+        "empleador": "Gervasoni Ingenieria",
+        "fecha": "2004 al presente"
+    }
+]
 }
+
+
+
