@@ -8,12 +8,19 @@ import { ProfileService } from '../Servicios/profile.service';
 })
 export class SobremiComponent implements OnInit {
 
+  //Variable de instancia para almacenar los datos
   miPortfolio:any;
 
-  constructor(private datosProfile:ProfileService) { }
+  constructor(
+    //inyectar el servicio para tener acceso en la clase a los metodos
+    private datosProfile:ProfileService) { }
 
+  // Esto es para almacenar en la variable instancia los datos recuperados por el servicio  
   ngOnInit(): void {
-    this.datosProfile.obtenerDatos().subscribe(data => {console.log(data); this.miPortfolio=data;});
+    this.datosProfile.obtenerDatos().subscribe(datos => {
+      console.log(datos); 
+      this.miPortfolio=datos;
+    });
   }
 
 }

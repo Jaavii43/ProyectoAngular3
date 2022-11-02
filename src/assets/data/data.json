@@ -3,11 +3,12 @@
     "posicion": "Tecnico en Electronica",
     "imagen": "./assets/img/Estado.jpg",
     "experiencias": [
-    {
-        "empleador": "Gervasoni Ingenieria",
-        "fecha": "2004 al presente"
-    }
-]
+        {
+            "empleador": "Gervasoni Ingenieria",
+            "fecha": "2004 al presente",
+            "trabajo": "atencion al publico"
+        }
+    ]
 }
 
 
