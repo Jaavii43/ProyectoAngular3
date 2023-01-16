@@ -2,7 +2,6 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { HttpClientModule } from '@angular/common/http';
-
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
@@ -29,6 +28,10 @@ import { TrabajosComponent } from './trabajos/trabajos.component';
 import { EstudiosComponent } from './estudios/estudios.component';
 import { BotonagregarComponent } from './edicion/botonagregar/botonagregar.component';
 import { ModaddlabComponent } from './edicion/modaddlab/modaddlab.component';
+import { AgregarTrabajoComponent } from './edicion/modeditra/agregar-trabajo.component';
+import { BotagrtrabajoComponent } from './edicion/botonagregartrabajo/botagrtrabajo/botagrtrabajo.component';
+import { BotonAgregarHabiComponent } from './edicion/boton-agregar-habi/boton-agregar-habi.component';
+import { AgregarhabilidadComponent } from './edicion/agregarhabilidad/agregarhabilidad.component';
 
  
 
@@ -59,7 +62,12 @@ import { ModaddlabComponent } from './edicion/modaddlab/modaddlab.component';
     TrabajosComponent,
     EstudiosComponent,
     BotonagregarComponent,
-    ModaddlabComponent
+    ModaddlabComponent,
+    AgregarTrabajoComponent,
+    BotagrtrabajoComponent,
+    BotonAgregarHabiComponent,
+    AgregarhabilidadComponent,
+    
   ],
   imports: [
     BrowserModule,
