@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ModeditfotoComponent } from './modeditfoto.component';
+import { ModagrproyComponent } from './modagrproy.component';
 
-describe('ModeditfotoComponent', () => {
-  let component: ModeditfotoComponent;
-  let fixture: ComponentFixture<ModeditfotoComponent>;
+describe('ModagrproyComponent', () => {
+  let component: ModagrproyComponent;
+  let fixture: ComponentFixture<ModagrproyComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ModeditfotoComponent ]
+      declarations: [ ModagrproyComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(ModeditfotoComponent);
+    fixture = TestBed.createComponent(ModagrproyComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

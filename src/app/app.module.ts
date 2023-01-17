@@ -17,7 +17,6 @@ import { NavbardashboardComponent } from './navbardashboard/navbardashboard.comp
 import { SobremieditComponent } from './edicion/sobremiedit/sobremiedit/sobremiedit.component';
 import { SeccioneditComponent } from './edicion/seccionedit/seccionedit.component';
 import { ModeditsobremiComponent } from './edicion/modeditsobremi/modeditsobremi.component';
-import { ModeditfotoComponent } from './edicion/modeditfoto/modeditfoto.component';
 import { BotonesedicionComponent } from './edicion/botonesedicion/botonesedicion.component';
 import { SecedueditComponent } from './edicion/seceduedit/seceduedit.component';
 import { SechabeditComponent } from './edicion/sechabedit/sechabedit.component';
@@ -27,11 +26,12 @@ import { HabilidadesComponent } from './habilidades/habilidades.component';
 import { TrabajosComponent } from './trabajos/trabajos.component';
 import { EstudiosComponent } from './estudios/estudios.component';
 import { BotonagregarComponent } from './edicion/botonagregar/botonagregar.component';
-import { ModaddlabComponent } from './edicion/modaddlab/modaddlab.component';
 import { AgregarTrabajoComponent } from './edicion/modeditra/agregar-trabajo.component';
 import { BotagrtrabajoComponent } from './edicion/botonagregartrabajo/botagrtrabajo/botagrtrabajo.component';
-import { BotonAgregarHabiComponent } from './edicion/boton-agregar-habi/boton-agregar-habi.component';
-import { AgregarhabilidadComponent } from './edicion/agregarhabilidad/agregarhabilidad.component';
+import { ModagrhabComponent } from './edicion/modagrhab/modagrhab.component';
+import { ModagrproyComponent } from './edicion/modagrproy/modagrproy.component';
+import { ModeagrestComponent } from './edicion/modeagrest/modeagrest.component';
+import { BotonagregarproyComponent } from './edicion/botonagregarproy/botonagregarproy.component';
 
  
 
@@ -52,7 +52,6 @@ import { AgregarhabilidadComponent } from './edicion/agregarhabilidad/agregarhab
     SobremieditComponent,
     SeccioneditComponent,
     ModeditsobremiComponent,
-    ModeditfotoComponent,
     BotonesedicionComponent,
     SecedueditComponent,
     SechabeditComponent,
@@ -62,11 +61,12 @@ import { AgregarhabilidadComponent } from './edicion/agregarhabilidad/agregarhab
     TrabajosComponent,
     EstudiosComponent,
     BotonagregarComponent,
-    ModaddlabComponent,
     AgregarTrabajoComponent,
     BotagrtrabajoComponent,
-    BotonAgregarHabiComponent,
-    AgregarhabilidadComponent,
+    ModagrhabComponent,
+    ModagrproyComponent,
+    ModeagrestComponent,
+    BotonagregarproyComponent,
     
   ],
   imports: [

@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ModaddlabComponent } from './modaddlab.component';
+import { ModeagrestComponent } from './modeagrest.component';
 
-describe('ModaddlabComponent', () => {
-  let component: ModaddlabComponent;
-  let fixture: ComponentFixture<ModaddlabComponent>;
+describe('ModeagrestComponent', () => {
+  let component: ModeagrestComponent;
+  let fixture: ComponentFixture<ModeagrestComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ModaddlabComponent ]
+      declarations: [ ModeagrestComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(ModaddlabComponent);
+    fixture = TestBed.createComponent(ModeagrestComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
