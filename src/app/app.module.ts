@@ -32,6 +32,7 @@ import { ModagrhabComponent } from './edicion/modagrhab/modagrhab.component';
 import { ModagrproyComponent } from './edicion/modagrproy/modagrproy.component';
 import { ModeagrestComponent } from './edicion/modeagrest/modeagrest.component';
 import { BotonagregarproyComponent } from './edicion/botonagregarproy/botonagregarproy.component';
+import { BotonagrhabComponent } from './edicion/botonagrhab/botonagrhab.component';
 
  
 
@@ -67,6 +68,7 @@ import { BotonagregarproyComponent } from './edicion/botonagregarproy/botonagreg
     ModagrproyComponent,
     ModeagrestComponent,
     BotonagregarproyComponent,
+    BotonagrhabComponent,
     
   ],
   imports: [
